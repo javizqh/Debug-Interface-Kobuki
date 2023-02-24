@@ -2,7 +2,13 @@
 Debug interface for the kobuki robot using ros2 humble huskell. It uses the two available leds in all possible combinations and the speaker.
 
 ## How to debug
-Using this debugging interface will allow you to use one of the following states avilables in this manual.
+Using this debugging interface will allow you to use one of the following states avilables in this [manual](debug_manual.pdf).
+
+## How to add more
+Replace the lines with ------- in the latex to the state desired, then in DebugNode.hpp add the state the same way as the others, and initialize it to the value in the manual.
+```cpp
+  static const int NEW_ONE = 12;
+```
 
 ## How to install
 Add in your package with the same folder structure as the example.
