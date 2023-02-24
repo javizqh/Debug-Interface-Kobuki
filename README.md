@@ -1,5 +1,8 @@
 # Debug-Interface-Kobuki
-Debug interface for the kobuki robot using ros2 humble huskell
+Debug interface for the kobuki robot using ros2 humble huskell. It uses the two available leds in all possible combinations and the speaker.
+
+## How to debug
+Using this debugging interface will allow you to use one of the following states avilables in this manual.
 
 ## How to install
 Add in your package with the same folder structure as the example.
